@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+
+  
+
+ 
+  article{
+    text-align: justify;
+    
+  }
+
+  header, footer {
+   
+    color: #fff;
+    
+    
+    background-image: url("https://sumbarprov.go.id/images/2018/03/Adi_2.jpg");
+    background-size: 120%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height: 255px;
+    background-color: #333;
+
+
+  }
+#judul{
+  text-shadow: 0px 0px 60px black;
+}
+#judul p{
+  color: rgb(36, 143, 0);
+}
+
+  
+#wisata{
+  border-radius: 5px;
+}
+.card{
+  
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+}
+
+#wisata-jam-gadang{
+  background-image: url("assets/jam-gadang.jpeg");
+  
+}
+#wisata-taman-panorama{
+  background-image: url("assets/bMbVu7OGHp7vxhzxwIpfUqvvmrADMA-metaZmM5MGM1YTIwODY3NjVjOWY3OTQxN2UwZTEyMDQ1ZGIuanBn-.jpg");
+}
+
+#wisata-jembatan{
+  background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0d/b0/71/6c/limpapeh-bridge.jpg');
+}
+
+#wisata-benteng{
+  background-image: url("https://asset.kompas.com/crops/wOmVoT7JzxpODJ_6fxB5EC4Maak=/99x0:1174x717/750x500/data/photo/2022/08/06/62edda2428a68.jpeg");
+}
+#wisata-margasatwa{
+  background-image: url("https://admin.bukittinggikota.go.id/storage/Wisata/ufXeUNvyB7gAK4Nu6RMT24i1Ysqx3r-metaN2E1ZWIyYWNkMDUzMjJjYzgwYmQ4ZDU3NTc5OWI3NzUuanBlZw==-.jpg");
+}
+
+#perpustakaan{
+  background-image: url("https://admin.bukittinggikota.go.id/storage/Wisata/SdwdEvA1VwG8WKt2mSvcZpRnjIkF5h-metaYjgxNzAxYjA2MjY5ODVjOGUzMGM5YWQ4ZjUwOTY1NDMuanBlZw==-.jpg");
+}
+
+#wisata-lobang{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Lobang_Jepang_01.jpg");
+}
+
+.card h3, .card h4{
+  position: relative;
+  top:76%;
+  color: white;
+  text-shadow: 1px 1px 20px rgb(0, 0, 0);
+  
+}
+
+p{
+  z-index: 99;
+}
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  article {
+    flex: 1;
+    padding: 20px;
+    
+  }
+  aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 0 0 250px;
+  }
+   img {
+    max-width: 520px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+ h2, h3{
+  color:rgb(1, 148, 30);
+  text-align: center;
+  
+}
+
+figcaption{
+  font-size: 13px;
+  color: rgb(80, 80, 80);
+  text-align: center;
+  
+}
+
+  aside img {
+    max-width: 157px;
+}
+
+*{
+    margin: 0px;
+}
+.navigator{
+    width: 100%;
+    background-color: rgb(222, 0, 0);
+    position: relative;
+    bottom: 45px;
+    box-shadow: 1px 0px 20px black;
+    z-index: 2;
+}
+
+.navigator button {
+    background-color: #33333300;
+    font-size: 17px;
+    border: 0px;
+    color: white;
+}
+
+
+
+
+
+@media screen and (min-width: 720px){
+    #info{
+        position: sticky;
+        top: 40px;
+        
+    }
+
+    #swipe{
+      visibility: hidden;
+    }
+   
+    header{
+        min-height: 260px;
+    }
+    
+    header img{
+      position: relative;
+      left: 100px;
+      bottom:22px ;
+      
+    }
+
+    header .wali{
+      left: 100px;
+    }
+
+    header #judul{
+        position: relative;
+        top: 70px;
+        right: 100px;
+    }
+    p{
+      max-width:520px;
+      margin: auto;
+    }
+    
+
+    #wisata{
+      width: 100%;
+      
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      
+     }
+  
+     .card{
+      margin-top: 0px;
+      width: 47%;
+      height: 182px;
+      background-color: #fff;
+      margin: 4px;
+     }
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    main {
+      flex-direction: column;
+    }
+    article, aside {
+      flex: 1;
+    }
+
+   #wisata{
+    width: 90vw;
+    
+    height: 204px;
+    overflow: hidden;
+    overflow-x: scroll;
+    display: flex;
+   }
+
+   .card{
+    min-width: 160px;
+    height: 182px;
+    background-color: #fff;
+    margin: 4px;
+   }
+
+    
+
+}
+
+@media screen and (min-width : 1260px) {
+
+.subsection1, .subsection2{
+  width: 49%;
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin: 20px;
+}
+
+
+.section{
+  display: inline-flex;
+  margin: auto;
+  margin: auto;
+  
+}
+
+.card{
+  width: 32%;
+  height: 182px;
+  background-color: #fff;
+  margin: 4px;
+ }
+ header{
+  height: 316px;
+ }
+ header img{
+  position: relative;
+  top: 45px;
+ }
+ .navigator{
+  position: relative;
+  top: 19px;
+ }
+
+}
+
+
+.box{
+  margin: auto;
+}
+
+@media screen and (min-width:827px){
+  header{
+    background-image: url("https://bukittinggikota.go.id/images/hutriNew.png");
+    background-position-y: -640px;
+    background-size: cover;
+  }
+  #judul p {
+    color: white;
+  }
+
+}
